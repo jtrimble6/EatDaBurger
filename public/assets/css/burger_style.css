@@ -1,3 +1,16 @@
+.jumbotron {
+    background-color: rgb(226, 50, 226);
+    color: white;
+}
+
+.container {
+    align-content: center;
+}
+
+.rowTitle {
+    text-align: center;
+}
+
 .name {
     color: red;
 }
@@ -8,4 +21,13 @@
 
 .devoured {
     color: blue;
+}
+
+.create-form {
+    align-content: center;
+}
+
+.subButton {
+    background-color: rgb(226, 50, 226);
+    color: white;
 }
