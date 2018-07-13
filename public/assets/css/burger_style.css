@@ -1,6 +1,12 @@
 .jumbotron {
     background-color: rgb(226, 50, 226);
     color: white;
+    font-family: 'Sigmar One', cursive;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
 .container {
@@ -9,25 +15,34 @@
 
 .rowTitle {
     text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
 .name {
-    color: red;
+    color: rgb(226, 50, 226);
+    text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
 .nameFaded {
     color: #808080;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 
-.devoured {
-    color: blue;
+.devour {
+    background: none;
+    border: none;
+    font-family: 'Prosto One', cursive;
 }
 
-.create-form {
-    align-content: center;
+.caption {
+    text-align: center;
+    font-family: 'Prosto One', cursive;
 }
 
 .subButton {
     background-color: rgb(226, 50, 226);
     color: white;
+    font-family: 'Prosto One', cursive;
 }

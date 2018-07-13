@@ -1,7 +1,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4"><strong>Mondo Burger</strong></h1>
-    <p class="lead">THE BEEFIEST BURGERS IN TOWN!</p>
+    <h1 class="display-4 title"><strong>Mondo Burger</strong></h1>
+    <p class="lead title">THE BEEFIEST BURGERS IN TOWN!</p>
   </div>
 </div>
 <div class='container'>
@@ -20,7 +20,7 @@
 
                 </ul>
 
-        </div>
+        </div> 
         {{!-- <div class='col'></div> --}}
         <div class='col'>
 
@@ -38,21 +38,27 @@
 
         </div> 
 
-    </div>
+    </div> <br><br>
 
     <div class='row'>
 
-        <form class='create-form'>
+        <div class="col-md-6 offset-md-3">
+            <form class='create-form'>
 
-                <textarea rows='4' cols='50' id='burgerSubmit'>
+                    <textarea rows='1' cols='50' id='burgerSubmit'>
 
-                </textarea> <br>
+                    </textarea> <br>
 
-                <button type='submit' class='subButton' >Submit</button>
-
-                <p>Enter the name of a burger that you would like to add!</p>
-
-        </form>
+                    <div class='row'>
+                        <div class='col-md-4 offset-md-4'>
+                            <button type='submit' class='subButton'>Submit</button>
+                        </div>
+                    </div> <br>
+                    <div class='row caption'>
+                        <p>Enter the name of a burger that you would like to add!</p>
+                    </div>
+            </form>
+        </div>
 
     </div>
 
