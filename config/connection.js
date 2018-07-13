@@ -13,6 +13,18 @@ var connection = mysql.createConnection({
     password: "root",
     database: "burgers_db"
   });
+
+  if (process.env.JAWSDB_URL) {
+    connectoin = mysql.createConnection(process.env.JAWSDB_URL);
+  } else {
+    connection = mysql.createConnection({
+      host: 'localhost',
+      user: 'root',
+      password: 'root',
+      database: 'burgers_db'
+    });
+  };
+
   
   // connect to the mysql server and sql database
   connection.connect(function(err) {
